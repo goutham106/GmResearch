@@ -1,0 +1,32 @@
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout">
+
+<!--New 9 attributes is implemented in Percent lib is's
+    applied in the below button btn_sp for reference-->
+    <Button
+        android:id="@+id/btn_sp"
+
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="50%"
+        app:layout_marginTopPercent="15%"
+        app:layout_marginBottomPercent="15%"
+        app:layout_marginLeftPercent="25%"
+        app:layout_marginRightPercent="10%"
+        app:layout_marginStartPercent="10%"
+        app:layout_marginEndPercent="10%"
+        app:layout_marginPercent="20%"
+        android:text="@string/single_permission"
+        />
+
+    <Button
+        android:id="@+id/btn_mp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/multiple_permission"
+        app:layout_marginTopPercent="25%"
+        android:layout_centerHorizontal="true" />
+</android.support.percent.PercentRelativeLayout>

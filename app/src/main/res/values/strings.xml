@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gm Research</string>
+    <string name="single_permission">Single Permission</string>
+    <string name="multiple_permission">Multiple Permission</string>
+</resources>
